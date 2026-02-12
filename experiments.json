@@ -1,6 +1,10 @@
 [
   {
     "url": "/01-sine-in-text",
-    "name": "Sine In Text"
+    "name": "Animated text w/GSAP"
+  },
+  {
+    "url": "/02-css-version",
+    "name": "Animated text w/CSS"
   }
 ]

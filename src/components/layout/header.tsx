@@ -16,8 +16,8 @@ export function Header() {
   return (
     <header className='fixed top-4 left-4 z-1000'>
       <DropdownMenu>
-        <DropdownMenuTrigger className='px-3 py-1.5 text-sm text-white/90 border rounded-md bg-black/80 backdrop-blur-sm hover:text-black/50 hover:bg-white/90 transition-colors outline-none focus:ring-1 focus:ring-offset-2 focus:ring-gray-300'>
-          Select project
+        <DropdownMenuTrigger className='px-3 py-1.5 text-sm text-white/90 font-bold border rounded-md bg-black/20 backdrop-blur-sm hover:text-black/50 hover:bg-white/90 transition-colors outline-none focus:ring-1 focus:ring-offset-2 focus:ring-gray-300'>
+          View experiment
         </DropdownMenuTrigger>
         <DropdownMenuContent align='end' className='min-w-[180px]'>
           {experiments.map((experiment) => {
